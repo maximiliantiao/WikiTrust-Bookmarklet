@@ -3,7 +3,7 @@
 var styleSheet = document.createElement("style");
 styleSheet.innerHTML = `
 .hashtag {
-color: yellow;
+  color: yellow;
 }
 `;
 document.head.appendChild(styleSheet);
