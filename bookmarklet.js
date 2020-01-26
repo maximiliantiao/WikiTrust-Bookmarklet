@@ -2,8 +2,33 @@
 
 var styleSheet = document.createElement("style");
 styleSheet.innerHTML = `
-.hashtag {
-  color: yellow;
+.tooltip {
+    position: relative;
+    display: inline-block;
+    z-index: 200;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-image: linear-gradient(lightgreen, white);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 200;
+    top: -5px;
+    right: 13px;
+    font-weight: bold
+}
+.tooltip:focus .tooltiptext {
+    visibility: visible;
+    z-index: 1000;
+    border: none;
+}
+button {
+    border: none;
+    padding: 1px;
 }
 `;
 document.head.appendChild(styleSheet);
