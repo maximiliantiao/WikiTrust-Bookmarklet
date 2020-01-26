@@ -36,8 +36,17 @@ document.head.appendChild(styleSheet);
 var p_tag = document.getElementsByTagName('p');
 for (var i = 1; i < p_tag.length; i += 1) {
   var outer_span = document.createElement('span');
+  button_element.setAttribute('style', 'font-family: sans-serif; font-size: 12pt; white-space: pre-wrap');
+    
   var button_element = document.createElement('button');
+  button_element.appendChild(document.createTextNode(' # '));
+  button_element.setAttribute('class', 'tooltip');
+   
   var inner_span = document.createElement('span');
-  
+  inner_span.appendChild(document.createTextNode(' Info '));
+  inner_span.setAttribute('class', 'tooltiptext');
+    
+  button_element.appendChild(inner_span);
+  outer_span.appendChild(button_element);
   p_tag[i].insertAdjacentElement('afterbegin', span_element);
 }
