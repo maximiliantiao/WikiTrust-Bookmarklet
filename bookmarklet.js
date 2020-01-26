@@ -35,8 +35,9 @@ document.head.appendChild(styleSheet);
                           
 var p_tag = document.getElementsByTagName('p');
 for (var i = 1; i < p_tag.length; i += 1) {
-  var span_element = document.createElement('span');
-  span_element.appendChild(document.createTextNode(' # '));
-  span_element.setAttribute('class', 'hashtag');
+  var outer_span = document.createElement('span');
+  var button_element = document.createElement('button');
+  var inner_span = document.createElement('span');
+  
   p_tag[i].insertAdjacentElement('afterbegin', span_element);
 }
