@@ -5,6 +5,6 @@ var span_element = document.createElement('span');
 span_element.appendChild(document.createTextNode(' Hello there '));
 span_element.style.color = 'yellow';
 for (var i = 0; i < p_tag.length; i += 1) {
-  alert(p_tag[i].innerHTML);   
+  p_tag[i].appendChild(span_element);
 }
 
