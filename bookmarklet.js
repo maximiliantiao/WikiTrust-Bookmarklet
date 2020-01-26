@@ -1,14 +1,11 @@
 //javascript:(function(){var%20script=document.createElement('script');script.src='https://maximiliantiao.github.io/bookmarklet.js';document.getElementsByTagName('head')[0].appendChild(script);})()
 
-var styles = `
-  .hashtag {
-    color: 'green';
-  }
-`
-
 var styleSheet = document.createElement("style");
-styleSheet.type = "text/css";
-styleSheet.innerText = styles
+styleSheet.innerHTML = `
+.hashtag {
+color: yellow;
+}
+`;
 document.head.appendChild(styleSheet);
                           
 var p_tag = document.getElementsByTagName('p');
