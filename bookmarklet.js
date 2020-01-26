@@ -5,6 +5,5 @@ for (var i = 1; i < p_tag.length; i += 1) {
   var span_element = document.createElement('span');
   span_element.appendChild(document.createTextNode(' # '));
   span_element.style.color = 'green';
-  p_tag[i].appendChild(span_element);
+  p_tag[i].insertAdjacentElement('afterbegin', span_element);
 }
-
