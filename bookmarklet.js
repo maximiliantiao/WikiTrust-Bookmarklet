@@ -2,13 +2,12 @@
 
 var styles = `
   .hashtag {
-    background-color: 'yellow';
     color: 'green';
   }
 `
 
-var styleSheet = document.createElement("style")
-styleSheet.type = "text/css"
+var styleSheet = document.createElement("style");
+styleSheet.type = "text/css";
 styleSheet.innerText = styles
 document.head.appendChild(styleSheet);
                           
