@@ -3,7 +3,6 @@
 var styles = `
   .hashtag {
     background-color: 'yellow';
-    font-weight: bold;
     color: 'green';
   }
 `
