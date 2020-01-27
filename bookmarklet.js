@@ -16,7 +16,7 @@ styleSheet.innerHTML = `
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: blue;
+    background-color: white;
     color: black;
     text-align: center;
     border-radius: 6px;
