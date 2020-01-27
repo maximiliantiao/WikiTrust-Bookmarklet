@@ -2,12 +2,6 @@
 
 var styleSheet = document.createElement("style");
 styleSheet.innerHTML = `
-.mw-body-content {
-    position: relative;
-    font-size: 0.875em;
-    line-height: 1.6;
-    z-index: 0 !important;
-}
 .tooltip {
     position: relative;
     display: inline-block;
@@ -38,7 +32,10 @@ button {
 }
 `;
 document.head.appendChild(styleSheet);
-                          
+           
+var modify_class = document.styleSheets[0].cssRules[0].style;
+modify_class.removeProperty('z-index');
+
 var p_tag = document.getElementsByTagName('p');
 for (var i = 1; i < p_tag.length; i += 1) {
   var outer_span = document.createElement('span');
