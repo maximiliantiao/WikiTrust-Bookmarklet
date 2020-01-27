@@ -32,10 +32,10 @@ button {
 `;
 document.head.appendChild(styleSheet);
            
-var modify_div = document.getElementsByClassName('mw-body-content');
-for (var i = 0; i < modify_div.length; i += 1) {
-    modify_div[i].style.removeProperty('z-index');
-}
+//var modify_div = document.getElementsByClassName('mw-body-content');
+//for (var i = 0; i < modify_div.length; i += 1) {
+    //modify_div[i].style.removeProperty('z-index');
+//}
 
 var p_tag = document.getElementsByTagName('p');
 for (var i = 1; i < p_tag.length; i += 1) {
