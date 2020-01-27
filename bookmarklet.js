@@ -33,8 +33,8 @@ button {
 `;
 document.head.appendChild(styleSheet);
            
-var modify_div = document.getElementsByTagName('div');
-modify_div.style.removeProperty('z-index');
+//var modify_div = document.getElementsByTagName('div');
+//modify_div.style.removeProperty('z-index');
 
 var p_tag = document.getElementsByTagName('p');
 for (var i = 1; i < p_tag.length; i += 1) {
