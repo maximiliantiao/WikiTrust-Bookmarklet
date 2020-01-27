@@ -46,7 +46,7 @@ for (var i = 1; i < p_tag.length; i += 1) {
   button_element.setAttribute('class', 'tooltip');
    
   var inner_span = document.createElement('span');
-  inner_span.appendChild(document.createTextNode(' Info '));
+  inner_span.appendChild(document.createTextNode(' Trust Level: 100 Author Trust: 50 [some details] See Revision 180 for more details '));
   inner_span.setAttribute('class', 'tooltiptext');
     
   button_element.appendChild(inner_span);
