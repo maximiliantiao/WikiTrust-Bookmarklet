@@ -6,7 +6,7 @@ styleSheet.innerHTML = `
     position: relative;
     font-size: 0.875em;
     line-height: 1.6;
-    z-index: 0;
+    z-index: 0 !important;
 }
 .tooltip {
     position: relative;
