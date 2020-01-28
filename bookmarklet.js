@@ -1,5 +1,6 @@
 //javascript:(function(){var%20script=document.createElement('script');script.src='https://maximiliantiao.github.io/bookmarklet.js';document.getElementsByTagName('head')[0].appendChild(script);})()
 
+// Creating a CSS stylesheet for tooltip
 var styleSheet = document.createElement("style");
 styleSheet.innerHTML = `
 .tooltip {
@@ -31,12 +32,8 @@ button {
 }
 `;
 document.head.appendChild(styleSheet);
-           
-//var modify_div = document.getElementsByClassName('mw-body-content');
-//for (var i = 0; i < modify_div.length; i += 1) {
-    //modify_div[i].style.removeProperty('z-index');
-//}
 
+// Add in tooltip html code at the beginning of every paragraph           
 var p_tag = document.getElementsByTagName('p');
 for (var i = 1; i < p_tag.length; i += 1) {
   var outer_span = document.createElement('span');
