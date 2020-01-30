@@ -1,5 +1,5 @@
 // To use this bookmarket, copy the javascipt before (with the '//') and paste it in when you favorite the Wikipedia article you want to apply the bookmarklet to
-//javascript:(function(){var%20script=document.createElement('script');script.src='https://maximiliantiao.github.io/WikiTrust-Bookmarklet/bookmarklet.js';document.getElementsByTagName('head')[0].appendChild(script);})()
+//javascript:(function(){var%20script=document.createElement('script');script.src='https://maximiliantiao.github.io/WikiTrust-Bookmarklet/bookmarklet.ts';document.getElementsByTagName('head')[0].appendChild(script);})()
 
 // Creating a CSS stylesheet for tooltip
 var styleSheet = document.createElement("style");
