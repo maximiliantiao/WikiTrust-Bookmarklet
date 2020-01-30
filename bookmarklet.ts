@@ -2,7 +2,7 @@
 //javascript:(function(){var%20script=document.createElement('script');script.src='https://maximiliantiao.github.io/WikiTrust-Bookmarklet/bookmarklet.ts';document.getElementsByTagName('head')[0].appendChild(script);})()
 
 // Creating a CSS stylesheet for tooltip
-var styleSheet = document.createElement("style");
+let styleSheet = document.createElement("style");
 styleSheet.innerHTML = `
 .tooltip {
     position: relative;
@@ -35,16 +35,16 @@ button {
 document.head.appendChild(styleSheet);
 
 // Add in tooltip html code at the beginning of every paragraph           
-var p_tag = document.getElementsByTagName('p');
-for (var i = 1; i < p_tag.length; i += 1) {
-  var outer_span = document.createElement('span');
+let p_tag = document.getElementsByTagName('p');
+for (let i = 1; i < p_tag.length; i += 1) {
+  let outer_span = document.createElement('span');
   outer_span.setAttribute('style', 'font-family: sans-serif; font-size: 12pt; white-space: pre-wrap');
     
-  var button_element = document.createElement('button');
+  let button_element = document.createElement('button');
   button_element.appendChild(document.createTextNode(' • '));
   button_element.setAttribute('class', 'tooltip');
    
-  var inner_span = document.createElement('span');
+  let inner_span = document.createElement('span');
   inner_span.appendChild(document.createTextNode(' Trust Level: 100\n Author Trust: 50\n [some details]\n See Revision ' + (i) + ' for more details '));
   inner_span.setAttribute('class', 'tooltiptext');
     
