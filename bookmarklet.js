@@ -49,7 +49,7 @@ for (var i = 1; i < p_tag.length; i += 1) {
   outer_span.setAttribute('style', 'font-family: sans-serif; white-space: pre-wrap');
     
   var button_element = document.createElement('button');
-  button_element.appendChild(document.createTextNode(' ◖ '));
+  button_element.appendChild(document.createTextNode('◖'));
   button_element.setAttribute('class', 'tooltip');
    
   var inner_span = document.createElement('span');
