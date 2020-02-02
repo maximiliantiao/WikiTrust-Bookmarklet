@@ -27,6 +27,7 @@ styleSheet.innerHTML = `
     z-index: 200;
     top: -5px;
     right: 13px;
+    fonst-size: 12px;
     font-weight: bold
 }
 .tooltip:focus .tooltiptext {
@@ -36,7 +37,6 @@ styleSheet.innerHTML = `
 button {
     border: none;
     padding: 1px;
-    font-size: 20px;
 }
 `;
 document.head.appendChild(styleSheet);
