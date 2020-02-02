@@ -14,7 +14,6 @@ styleSheet.innerHTML = `
     position: relative;
     display: inline-block;
     z-index: 200;
-    font-size: 20px;
 }
 .tooltip .tooltiptext {
     visibility: hidden;
@@ -37,6 +36,7 @@ styleSheet.innerHTML = `
 button {
     border: none;
     padding: 1px;
+    font-size: 20px;
 }
 `;
 document.head.appendChild(styleSheet);
