@@ -30,6 +30,16 @@ styleSheet.innerHTML = `
     font-size: 12px;
     font-weight: bold
 }
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
+}
 .tooltip:focus .tooltiptext {
     visibility: visible;
     border: none;
