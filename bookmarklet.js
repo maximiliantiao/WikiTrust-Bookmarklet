@@ -28,7 +28,6 @@ styleSheet.innerHTML = `
     top: -5px;
     right: 13px;
     font-size: 12px;
-    font-weight: bold
     border: 1px black solid;
 }
 .tooltip .tooltiptext::after {
