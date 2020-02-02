@@ -38,6 +38,10 @@ styleSheet.innerHTML = `
 button {
     border: none;
     padding: 1px;
+    outline: none;
+}
+button:focus {
+    outline: none;
 }
 `;
 document.head.appendChild(styleSheet);
