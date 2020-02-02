@@ -4,6 +4,12 @@
 // Creating a CSS stylesheet for tooltip
 var styleSheet = document.createElement("style");
 styleSheet.innerHTML = `
+.mw-body-content {
+    position: initial;
+    font-size: 0.875em;
+    line-height: 1.6;
+    z-index: 0;
+}
 .tooltip {
     position: relative;
     display: inline-block;
