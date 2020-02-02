@@ -29,11 +29,12 @@ styleSheet.innerHTML = `
     right: 13px;
     font-size: 12px;
     font-weight: bold
+    border: 1px black solid;
 }
 .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 17%;
   left: 100%;
   margin-top: -5px;
   border-width: 5px;
