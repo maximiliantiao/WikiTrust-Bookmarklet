@@ -18,7 +18,7 @@ styleSheet.innerHTML = `
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-image: linear-gradient('lightgreen', 'white');
+    background-image: linear-gradient(lightgreen, white);
     color: black;
     text-align: center;
     border-radius: 6px;
