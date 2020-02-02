@@ -14,7 +14,7 @@ styleSheet.innerHTML = `
     position: relative;
     display: inline-block;
     z-index: 200;
-    font-size: 30px;
+    font-size: 20px;
 }
 .tooltip .tooltiptext {
     visibility: hidden;
