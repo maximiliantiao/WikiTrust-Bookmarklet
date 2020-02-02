@@ -21,6 +21,7 @@ styleSheet.innerHTML = `
     background: linear-gradient(lightgreen, white);
     color: black;
     text-align: center;
+    border: 1px black solid;
     border-radius: 6px;
     padding: 5px 0;
     position: absolute;
@@ -28,12 +29,11 @@ styleSheet.innerHTML = `
     top: -5px;
     right: 13px;
     font-size: 12px;
-    border: 1px black solid;
 }
 .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
-  top: 17%;
+  top: 16%;
   left: 100%;
   margin-top: -5px;
   border-width: 5px;
