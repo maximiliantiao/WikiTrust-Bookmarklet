@@ -27,12 +27,13 @@ styleSheet.innerHTML = `
     z-index: 200;
     top: -5px;
     right: 13px;
-    fonst-size: 12px;
+    font-size: 12px;
     font-weight: bold
 }
 .tooltip:focus .tooltiptext {
     visibility: visible;
     border: none;
+    outline: none;
 }
 button {
     border: none;
