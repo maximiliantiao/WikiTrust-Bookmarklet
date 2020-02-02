@@ -33,7 +33,7 @@ button {
 }
 `;
 document.head.appendChild(styleSheet);
-kill_zIndex = document.getElementsByClassName('mw-body-content').style.zIndex = -1;
+document.getElementsByClassName('mw-body-content').style.zIndex = -1;
 
 
 // Add in tooltip html code at the beginning of every paragraph           
