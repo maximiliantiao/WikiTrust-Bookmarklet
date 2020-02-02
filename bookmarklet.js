@@ -36,6 +36,7 @@ styleSheet.innerHTML = `
 button {
     border: none;
     padding: 1px;
+    font-weight: 12px;
 }
 `;
 document.head.appendChild(styleSheet);
@@ -45,10 +46,10 @@ document.head.appendChild(styleSheet);
 var p_tag = document.getElementsByTagName('p');
 for (var i = 1; i < p_tag.length; i += 1) {
   var outer_span = document.createElement('span');
-  outer_span.setAttribute('style', 'font-family: sans-serif; font-size: 12pt; white-space: pre-wrap');
+  outer_span.setAttribute('style', 'font-family: sans-serif; white-space: pre-wrap');
     
   var button_element = document.createElement('button');
-  button_element.appendChild(document.createTextNode(' • '));
+  button_element.appendChild(document.createTextNode(' ◖ '));
   button_element.setAttribute('class', 'tooltip');
    
   var inner_span = document.createElement('span');
