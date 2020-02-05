@@ -46,7 +46,6 @@ styleSheet.innerHTML = `
 .tooltip:focus .tooltiptext {
     visibility: visible;
     border: 1px solid black;
-    outline: none;
 }
 button {
     border: none;
