@@ -19,6 +19,7 @@ styleSheet.innerHTML = `
     z-index: 200;
     font-size: 20px;
     bottom: -2px;
+    color: goldenrod;
 }
 .tooltip .tooltiptext {
     visibility: hidden;
