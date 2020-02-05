@@ -45,7 +45,7 @@ styleSheet.innerHTML = `
 }
 .tooltip:focus .tooltiptext {
     visibility: visible;
-    border: none;
+    border: 1px solid black;
     outline: none;
 }
 button {
