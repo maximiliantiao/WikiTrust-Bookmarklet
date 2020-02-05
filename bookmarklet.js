@@ -40,7 +40,7 @@ styleSheet.innerHTML = `
   position: absolute;
   top: 16%;
   left: 100%;
-  margin-top: 1px;
+  margin-top: 0px;
   border-width: 5px;
   border-style: solid;
   border-color: transparent transparent transparent black;
