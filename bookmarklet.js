@@ -36,7 +36,7 @@ styleSheet.innerHTML = `
     font-size: 12px;
 }
 .tooltip .tooltiptext::after {
-  content: "";
+  content: " ";
   position: absolute;
   top: 16%;
   left: 100%;
@@ -52,11 +52,11 @@ button {
     background-color: none;
     background-image: none;
 }
+`;
+/*
 button:focus {
     outline: none;
 }
-`;
-/*
 .tooltip:focus .tooltiptext {
     visibility: visible;
     border: 1px solid black;
