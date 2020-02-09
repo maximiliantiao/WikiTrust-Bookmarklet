@@ -39,15 +39,6 @@ styleSheet.innerHTML = `
     visibility: visible;
     border: 1px solid black;
 }
-button {
-    border: none;
-    padding: 1px;
-    outline: none;
-    background-color: none;
-    background-image: none;
-}
-`;
-/*
 .tooltip .tooltiptext::after {
   content: " ";
   position: absolute;
@@ -58,6 +49,15 @@ button {
   border-style: solid;
   border-color: transparent transparent transparent black;
 }
+button {
+    border: none;
+    padding: 1px;
+    outline: none;
+    background-color: white;
+    background-image: white;
+}
+`;
+/*
 button:focus {
     outline: none;
 }
