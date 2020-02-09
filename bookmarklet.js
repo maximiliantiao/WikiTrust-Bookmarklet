@@ -42,9 +42,9 @@ styleSheet.innerHTML = `
 .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 16%;
   left: 100%;
-  margin-top: -5px;
+  margin-top: 0px;
   border-width: 5px;
   border-style: solid;
   border-color: transparent transparent transparent black;
