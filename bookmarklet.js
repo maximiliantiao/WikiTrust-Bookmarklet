@@ -45,6 +45,8 @@ styleSheet.innerHTML = `
   border-style: solid;
   border-color: transparent transparent transparent black;
 }
+`;
+/*
 button {
     border: none;
     padding: 1px;
@@ -52,8 +54,6 @@ button {
     background-color: none;
     background-image: none;
 }
-`;
-/*
 button:focus {
     outline: none;
 }
