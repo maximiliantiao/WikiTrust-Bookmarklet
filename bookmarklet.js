@@ -45,10 +45,6 @@ styleSheet.innerHTML = `
   border-style: solid;
   border-color: transparent transparent transparent black;
 }
-.tooltip:focus .tooltiptext {
-    visibility: visible;
-    border: 1px solid black;
-}
 button {
     border: none;
     padding: 1px;
@@ -60,6 +56,12 @@ button:focus {
     outline: none;
 }
 `;
+/*
+.tooltip:focus .tooltiptext {
+    visibility: visible;
+    border: 1px solid black;
+}
+*/
 document.head.appendChild(styleSheet);
 //document.getElementsByClassName('mw-body-content').style.position = "absolute";
 
