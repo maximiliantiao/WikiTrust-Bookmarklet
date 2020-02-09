@@ -40,11 +40,11 @@ styleSheet.innerHTML = `
     border: 1px solid black;
 }
 .tooltip .tooltiptext::after {
-  content: " ";
+  content: "";
   position: absolute;
-  top: 16%;
+  top: 50%;
   left: 100%;
-  margin-top: 0px;
+  margin-top: -5px;
   border-width: 5px;
   border-style: solid;
   border-color: transparent transparent transparent black;
