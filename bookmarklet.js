@@ -45,7 +45,7 @@ styleSheet.innerHTML = `
   border-style: solid;
   border-color: transparent transparent transparent black;
 }
-.tooltip:focus .tooltiptext {
+.tooltip::focus .tooltiptext {
     visibility: visible;
     border: 1px solid black;
 }
