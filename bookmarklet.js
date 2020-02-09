@@ -53,6 +53,8 @@ button {
     border: none;
     padding: 1px;
     outline: none;
+    background-color: none;
+    background-image: none;
 }
 button:focus {
     outline: none;
