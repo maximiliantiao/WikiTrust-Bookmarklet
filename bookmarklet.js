@@ -35,7 +35,7 @@ styleSheet.innerHTML = `
     right: 13px;
     font-size: 12px;
 }
-.tooltip:focus .tooltiptext {
+.tooltip:hover .tooltiptext {
     visibility: visible;
     border: 1px solid black;
 }
