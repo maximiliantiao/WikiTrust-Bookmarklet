@@ -35,6 +35,12 @@ styleSheet.innerHTML = `
     right: 13px;
     font-size: 12px;
 }
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    border: 1px solid black;
+}
+`;
+/*
 .tooltip .tooltiptext::after {
   content: " ";
   position: absolute;
@@ -45,12 +51,6 @@ styleSheet.innerHTML = `
   border-style: solid;
   border-color: transparent transparent transparent black;
 }
-.tooltip::focus .tooltiptext {
-    visibility: visible;
-    border: 1px solid black;
-}
-`;
-/*
 button {
     border: none;
     padding: 1px;
