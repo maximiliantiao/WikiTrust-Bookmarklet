@@ -68,9 +68,9 @@ document.head.appendChild(styleSheet);
 // Add in tooltip html code at the beginning of every paragraph           
 var p_tag = document.getElementsByTagName('p');
 for (var i = 1; i < p_tag.length; i += 1) {
-  var trust_level = Math.floor((Math.random() * 100) + 1);
-  var author_level = 100 - Math.floor((Math.random() * 100) + 1);
-  alert(trust_level, author_level);
+//   var trust_level = Math.floor((Math.random() * 100) + 1);
+//   var author_level = 100 - Math.floor((Math.random() * 100) + 1);
+//   alert(trust_level, author_level);
   var outer_span = document.createElement('span');
   outer_span.setAttribute('style', 'font-family: sans-serif; white-space: pre-wrap');
     
@@ -79,7 +79,7 @@ for (var i = 1; i < p_tag.length; i += 1) {
   button_element.setAttribute('class', 'tooltip');
    
   var inner_span = document.createElement('span');
-  inner_span.appendChild(document.createTextNode(' Trust Level: ' + (trust_level) + '\n Author Trust: ' + (author_trust) + '\n [some details]\n See Revision ' + (i) + ' for more details '));
+  inner_span.appendChild(document.createTextNode(' Trust Level: 100\n Author Trust: 50\n [some details]\n See Revision ' + (i) + ' for more details '));
   inner_span.setAttribute('class', 'tooltiptext');
     
   button_element.appendChild(inner_span);
