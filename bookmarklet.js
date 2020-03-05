@@ -32,7 +32,7 @@ styleSheet.innerHTML = `
     position: absolute;
     z-index: 200;
     top: -5px;
-    right: 13px;
+    right: 20px;
     font-size: 12px;
 }
 .tooltip:hover .tooltiptext {
