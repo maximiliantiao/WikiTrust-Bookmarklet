@@ -68,9 +68,9 @@ document.head.appendChild(styleSheet);
 // Add in tooltip html code at the beginning of every paragraph           
 var p_tag = document.getElementsByTagName('p');
 for (var i = 1; i < p_tag.length; i += 1) {
-//   var trust_level = Math.floor((Math.random() * 100) + 1);
-//   var author_level = 100 - Math.floor((Math.random() * 100) + 1);
-//   alert(trust_level, author_level);
+  var trust_level = Math.floor((Math.random() * 100) + 1);
+  var author_level = Math.floor((Math.random() * 100) + 1);
+  alert(trust_level, author_level);
   var outer_span = document.createElement('span');
   outer_span.setAttribute('style', 'font-family: sans-serif; white-space: pre-wrap');
     
