@@ -72,7 +72,6 @@ for (var i = 1; i < p_tag.length; i += 1) {
   var author_level = Math.floor((Math.random() * 100) + 1);
     
   var count_words = p_tag[i].textContent.split(/\s/).length;
-  alert(count_words);
     
   var outer_span = document.createElement('span');
   outer_span.setAttribute('style', 'font-family: sans-serif; white-space: pre-wrap');
